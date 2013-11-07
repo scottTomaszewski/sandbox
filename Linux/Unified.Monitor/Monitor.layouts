@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <row>
+        <button text="Monitors on" onTap="on" />
+    </row>
+    <row>
+        <button text="Monitors off" onTap="off" />
+    </row>
+</layout>
