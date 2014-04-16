@@ -9,10 +9,10 @@ meta.icon = "Monitor.png"
 local task = libs.task;
 
 -- Action
-actions.on = function ()
+actions.turn_on = function ()
   task.start("xset", "dpms", "force", "on");
 end
 
-actions.off = function ()
+actions.turn_off = function ()
   task.start("xset", "dpms", "force", "off");
 end
