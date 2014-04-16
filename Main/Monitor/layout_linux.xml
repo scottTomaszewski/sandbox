@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <grid>
     <row>
-        <button text="Monitors on" onTap="on" />
+      <button text="Turn On" onTap="turn_on" color="green" />
     </row>
     <row>
-        <button text="Monitors off" onTap="off" />
+      <button text="Turn Off" onTap="turn_off" color="red" />
     </row>
+  </grid>
 </layout>
